@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Noto sans;
+}
+.main{
+    background-image: url(assets/IN-en-20241118-TRIFECTA-perspective_0b813abc-8365-4a43-a9d8-14c06e84c9f3_large.jpg);
+    background-position: center -25px;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 100vh;
+    position: relative;
+}
+.main .box{
+    height: 100vh;
+    width: 100%;
+    opacity:0.7;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+nav{
+    max-width: 81vw;
+    height:100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+nav img{
+    width: 150px;
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+    height: 35px;
+}
+.buttons> :nth-child(1){
+    width: 130px;
+    word-spacing: 5px;
+    background-color: #151312;
+    color: white;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.buttons> :nth-child(2){
+    width:80px;
+    color: white;
+    background-color:#e50914;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 600;
+}
+.buttons span{
+    font-size: 15px;
+}
+.hero{
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    text-align: center;
+}
+.hero> :nth-child(1){
+    font-weight: 900;
+    font-size: 55px;
+}
+.hero> :nth-child(2){
+    font-weight: 900;
+    font-size: 55px;
+}
+.hero> :nth-child(3){
+    font-size: 20px;
+    font-weight: 650;
+    margin: 10px;
+}
+.hero> :nth-child(4){
+    font-size: 16px;
+    margin: 10px;
+    margin-top: 20px;
+}
+.input{
+    display: flex;
+}
+.hero input{
+    height: 25px;
+    width: 380px;
+    background-color: #151312;
+    opacity: 0.5;
+    color: white;
+    font-size: 16px;
+    padding: 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.hero button{
+    width: 200px;
+    height: 58px;
+    font-size: 25px;
+    background-color: #e50914;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
+}
